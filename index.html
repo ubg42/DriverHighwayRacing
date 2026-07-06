@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><script src="https://games.playgama.net/assets/bootstrap.js"></script>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Arcade Highway Racing</title>
+        <link rel="preconnect" href="https://bridge.playgama.com">
+        <link rel="preload" href="Build/b06071930d58a0fd1e36f2bf51eb4b9f.wasm" as="fetch" type="application/wasm" crossorigin>
+        <link rel="preload" href="Build/8da3d6e1b7a2f9448c08ded2739271c6.data" as="fetch" crossorigin>
+        <link rel="preload" href="Build/fb1a9fe0e8e7bed1c866125bb8110124.framework.js" as="script">
+        <style>
+            html, body {
+                width: 100%;
+                height: 100%;
+                padding: 0px;
+                margin: 0px;
+            }
+            .fullscreen-canvas {
+                background: #242424;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="canvas" class="fullscreen-canvas"></canvas>
+        <script src="./playgama-bridge-unity.js"></script>
+    </body>
+</html>
